@@ -5,7 +5,9 @@ VisualStudioVersion = 17.2.32802.462
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gyak_9", "gyak_9\gyak_9.csproj", "{9BC8CD0B-E64A-41B8-8927-CA0E55DE452C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gyak12_excel", "gyak12_excel\gyak12_excel.csproj", "{AEEB6E21-46E9-4DA2-85FF-BFAACA494CEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gyak12_excel", "gyak12_excel\gyak12_excel.csproj", "{AEEB6E21-46E9-4DA2-85FF-BFAACA494CEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gyak11", "gyak11\gyak11.csproj", "{9AE76F76-3EFE-4F68-B2FE-0DCE92F5AC7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{AEEB6E21-46E9-4DA2-85FF-BFAACA494CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEEB6E21-46E9-4DA2-85FF-BFAACA494CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEEB6E21-46E9-4DA2-85FF-BFAACA494CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AE76F76-3EFE-4F68-B2FE-0DCE92F5AC7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AE76F76-3EFE-4F68-B2FE-0DCE92F5AC7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AE76F76-3EFE-4F68-B2FE-0DCE92F5AC7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AE76F76-3EFE-4F68-B2FE-0DCE92F5AC7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
