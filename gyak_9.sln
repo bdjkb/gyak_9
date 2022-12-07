@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32802.462
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gyak_9", "gyak_9\gyak_9.csproj", "{9BC8CD0B-E64A-41B8-8927-CA0E55DE452C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gyak_9", "gyak_9\gyak_9.csproj", "{9BC8CD0B-E64A-41B8-8927-CA0E55DE452C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gyak12_excel", "gyak12_excel\gyak12_excel.csproj", "{AEEB6E21-46E9-4DA2-85FF-BFAACA494CEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9BC8CD0B-E64A-41B8-8927-CA0E55DE452C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BC8CD0B-E64A-41B8-8927-CA0E55DE452C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BC8CD0B-E64A-41B8-8927-CA0E55DE452C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEEB6E21-46E9-4DA2-85FF-BFAACA494CEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEEB6E21-46E9-4DA2-85FF-BFAACA494CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEEB6E21-46E9-4DA2-85FF-BFAACA494CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEEB6E21-46E9-4DA2-85FF-BFAACA494CEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
