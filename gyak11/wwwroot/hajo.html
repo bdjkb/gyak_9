@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="hajocs.css" rel="stylesheet" />>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="külső">
+        <div id="kérdés_szöveg">
+            Kérdés szövege
+        </div>
+
+        <div id="középső">
+            <div id="válaszok">
+                <div id="válasz1" class="kerdes">Válasz 1</div>
+                <div id="válasz2" class="kerdes">Válasz 2</div>
+                <div id="válasz3" class="kerdes">Válasz 3</div>
+            </div>
+            <div id="kép">
+                <img id="kép1" src="https://kzgzdiag426.blob.core.windows.net/netcore/teszt-0050.jpg" />
+            </div>
+        </div>
+        <div id="vezérlő">
+            <div class="gomb kattintható">Vissza</div>
+            <div class="gomb kattintható">Előre</div>
+        </div>
+    </div>
+
+    <div id="válaszok">
+        <div id="válasz1" class="kerdes kattintható">Válasz 1</div>
+        <div id="válasz2" class="kerdes kattintható jó">Válasz 2</div>
+        <div id="válasz3" class="kerdes kattintható rossz">Válasz 3</div>
+    </div>
+
+    <style>
+        div {
+            margin: 10px;
+            border: 1px solid fuchsia
+        }
+
+        #külső {
+            height: 100%;
+            flex-direction: column;
+            display: flex;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+
+        #kérdés_szöveg {
+        }
+
+        #középső {
+            display: flex;
+            flex-direction: row;
+            flex-grow: 1
+        }
+
+        #válaszok {
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+
+        #vezérlő {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        #kép {
+            overflow: hidden;
+            flex-shrink: 0;
+        }
+
+        .gomb {
+            padding: 20px;
+            width: 80px;
+        }
+
+        .kerdes {
+        }
+
+        .kattintható:hover {
+            background-color: fuchsia;
+            color: white;
+        }
+    </style>
+</body>
